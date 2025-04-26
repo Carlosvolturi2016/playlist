@@ -96,7 +96,7 @@ const tracks = [
         { src: 'musicas/Michele do Pandeiro - Jesus Cavaleiro do Céu.mp3', cover: 'fotos/jesus.jpg', title : 'CJesus Cavaleiro do Céu'},
         { src: 'musicas/O Fogo Arderá.mp3', cover: 'fotos/ardera.jpg', title : 'O Fogo Arderá'},
         { src: 'musicas/Jerusálem e Eu.mp3', cover: 'fotos/denise.jpg', title : 'Jerusálem e Eu'},
-        { src: 'musicas/Por Amor.mp3', cover: 'fotos/denise.jpg', title : 'Jerusálem e Eu'},
+        { src: 'musicas/Por Amor.mp3', cover: 'fotos/kim.jpg', title : 'Por AMOR'},
         { src: 'musicas/05 Nos Braços do Pai _ Diante do Trono 5 Nos Braços do Pai _ Diante do Trono.mp3', cover: 'fotos/braços.jpg', title : ' Nos Braços do Pair'},
         { src: 'musicas/O Carpinteiro (Clipe Oficial) - Alessandro Vilas Boas _ Som do Reino.mp3', cover: 'fotos/carpinteiro.jpg', title : 'O Carpinteiro '},
         { src: 'musicas/paulo e silas.mp3', cover: 'fotos/pauloesilas.jpg', title : 'paulo e silas'},
@@ -113,13 +113,20 @@ const tracks = [
         { src: 'musicas/03-Deus me Chamou.mp3', cover: 'fotos/mt.jpg', title : 'Mattos Nascimento - Deus me Chamou'},
         { src: 'musicas/01-Até o Fim.mp3', cover: 'fotos/mt.jpg', title : ' Mattos Nascimento -Até o Fim'},
         { src: 'musicas/04-Posso Tudo Suportar.mp3', cover: 'fotos/posso.jpg', title : 'Mattos Nascimento - Posso Tudo Suportar'},
-        { src: 'musicas//08 - Marcelo Nascimento, Mattos Nascimento - Um Milagre Em Jericó.mp3', cover: 'fotos/jerico.jpg', title : 'Mattos Nascimento - Até o Fim'},
-        { src: 'musicas/Fogo em Teus Olhos - Ao Vivo _ Abdiel Arsenio #SessãoDeAdoração (Brasas).mp3', cover: 'fotos/abdiel.jpg', title : 'Fogo em Teus Olhos - Ao Vivo _ Abdiel Arsenio'},
-        { src: 'musicas/04. Clame o Meu Nome.mp3', cover: 'fotos/jerico.jpg', title : 'Marcelo Nascimento -  Clame o Meu Nome'},
+        { src: 'musicas//08 - Marcelo Nascimento, Mattos Nascimento - Um Milagre Em Jericó.mp3', cover: 'fotos/jerico.jpg', title : 'Mattos Nascimento - Um Milagre Em Jericó'},
+        { src: 'musicas/Fogo em Teus Olhos - Ao Vivo _ Abdiel Arsenio.mp3', cover: 'fotos/abdiel.jpg', title : 'Fogo em Teus Olhos - Ao Vivo _ Abdiel Arsenio'},
+        { src: 'musicas/04. Clame o Meu Nome.mp3', cover: 'fotos/marcelo.jpg', title : 'Marcelo Nascimento -  Clame o Meu Nome'},
         { src: 'musicas//08 - Marcelo Nascimento, Mattos Nascimento - Um Milagre Em Jericó.mp3', cover: 'fotos/marcelo.jpg', title : 'Mattos Nascimento - Até o Fim'},
         { src: 'musicas/05 - Mar Bravio.mp3', cover: 'fotos/bravio.jpg', title : 'Shiley Carvalhais - Mar Bravio'},
         { src: 'musicas/06 - Nossa Canção.mp3', cover: 'fotos/shirley.jpg', title : 'Shirley Carvalhais -Nossa Canção'},
         { src: 'musicas/02 Fale com Jesus.mp3', cover: 'fotos/shi.jpg', title : 'Shirley Carvalhais- Fale com Jesus'},
+        { src: 'musicas/06 - Me Esvaziar.mp3', cover: 'fotos/nivea.jpg', title : 'Nivea Soares Me Esvaziar'},
+        { src: 'musicas/06 -  Hosana.mp3', cover: 'fotos/renascer.jpg', title : 'Renascer Praise -Hosana'},
+        { src: 'musicas/13.. Quebra tudo Deus 2.mp3', cover: 'fotos/dede.jpg', title : 'DEDE-Quebra tudo Deus'},
+        { src: 'musicas/05 A Caminhada.mp3', cover: 'fotos/alvaro1.jpg', title : 'Alvaro Tito A Caminhada'},
+        { src: 'musicas/1- Casa do Pai.mp3', cover: 'fotos/aline1.jpg',title : 'Aline Barros- casa do pai'},
+        { src: 'musicas/04 - Manancial.mp3', cover: 'fotos/aline.jpeg', title : 'Aline Barros- Manancial'},
+
      
         
     
