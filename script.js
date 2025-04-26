@@ -104,7 +104,7 @@ const tracks = [
         { src: 'musicas/24 Com Ele.mp3', cover: 'fotos/gerson.avif', title : 'Gerson Rufino-Com Ele'},
         { src: 'musicas/A Tua Palavra.mp3', cover: 'fotos/atuapalavra.jpg', title : 'A Tua Palavra'},
         { src: 'musicas/39 - Mattos Nascimento - Breve Vem o Dia.mp3', cover: 'fotos/breve.jpg', title : 'Mattos Nascimento - Breve Vem o Dia'},
-        { src: 'musicas/35 - Mattos Nascimento - Sou de Deus.mp3', cover: 'fotos/soudeDeus.jpg', title : 'Mattos Nascimento - Sou de Deus'},
+        { src: 'musicas/35 - Mattos Nascimento - Sou de Deus.mp3', cover: 'fotos/soudeDEUS.jpg', title : 'Mattos Nascimento - Sou de Deus'},
         { src: 'musicas/10 - Mattos Nascimento - O Exilado.mp3', cover: 'fotos/mattos.png', title : 'Mattos Nascimento - O Exilado'},
         { src: 'musicas/04 - Mattos Nascimento - Algemas Caíram.mp3', cover: 'fotos/algemas.jpg', title : 'Mattos Nascimento - Algemas Caíram'},
         { src: 'musicas/05-Alma  Abatida.mp3', cover: 'fotos/algemas.jpg', title : 'Mattos Nascimento - Alma  Abatida'},
@@ -114,10 +114,13 @@ const tracks = [
         { src: 'musicas/01-Até o Fim.mp3', cover: 'fotos/mt.jpg', title : ' Mattos Nascimento -Até o Fim'},
         { src: 'musicas/04-Posso Tudo Suportar.mp3', cover: 'fotos/posso.jpg', title : 'Mattos Nascimento - Posso Tudo Suportar'},
         { src: 'musicas//08 - Marcelo Nascimento, Mattos Nascimento - Um Milagre Em Jericó.mp3', cover: 'fotos/jerico.jpg', title : 'Mattos Nascimento - Até o Fim'},
-        
-
-
-    
+        { src: 'musicas/Fogo em Teus Olhos - Ao Vivo _ Abdiel Arsenio #SessãoDeAdoração (Brasas).mp3', cover: 'fotos/abdiel.jpg', title : 'Fogo em Teus Olhos - Ao Vivo _ Abdiel Arsenio'},
+        { src: 'musicas/04. Clame o Meu Nome.mp3', cover: 'fotos/jerico.jpg', title : 'Marcelo Nascimento -  Clame o Meu Nome'},
+        { src: 'musicas//08 - Marcelo Nascimento, Mattos Nascimento - Um Milagre Em Jericó.mp3', cover: 'fotos/marcelo.jpg', title : 'Mattos Nascimento - Até o Fim'},
+        { src: 'musicas/05 - Mar Bravio.mp3', cover: 'fotos/bravio.jpg', title : 'Shiley Carvalhais - Mar Bravio'},
+        { src: 'musicas/06 - Nossa Canção.mp3', cover: 'fotos/shirley.jpg', title : 'Shirley Carvalhais -Nossa Canção'},
+        { src: 'musicas/02 Fale com Jesus.mp3', cover: 'fotos/shi.jpg', title : 'Shirley Carvalhais- Fale com Jesus'},
+     
         
     
     
