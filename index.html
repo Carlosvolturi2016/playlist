@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radio Player</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="radio-player">
+        <!-- Cabeçalho com nome da rádio -->
+        <div class="radio-header">
+            <h1 class="radio-name">Rádio<span style="color: #ee4949;"> Manancial
+            
+            </span></h1>
+            <p class="radio-slogan">Sua música,Toca aqui!</p>
+        </div>
+
+        <!-- Capa do álbum -->
+        <div class="cover-container">
+            <img id="album-cover" src="fotos/coração em chamas.jpg" alt="Capa do Álbum">
+        </div>
+
+        <!-- Informações da música atual -->
+        <div class="now-playing">
+            <h2 id="track-title" class="track-title">Acende o Fogo</h2>
+            <p id="track-artist" class="track-artist">DROPS</p>
+        </div>
+
+        <!-- Controles do player -->
+        <div class="controls">
+            <button id="prev-btn" class="control-btn"><i class="fas fa-step-backward"></i></button>
+            <button id="play-btn" class="control-btn play-btn"><i class="fas fa-play"></i></button>
+            <button id="pause-btn" class="control-btn play-btn" style="display: none;"><i class="fas fa-pause"></i></button>
+            <button id="next-btn" class="control-btn"><i class="fas fa-step-forward"></i></button>
+        </div>
+
+        <!-- Barra de progresso -->
+        <div class="progress-container">
+            <div class="progress-bar">
+                <div id="progress" class="progress"></div>
+            </div>
+            <div class="time-info">
+                <span id="current-time" class="current-time">0:00</span>
+                <span id="total-time" class="total-time">0:00</span>
+            </div>
+        </div>
+
+        <!-- Controle de volume -->
+        <div class="volume-container">
+            <span class="volume-icon"><i class="fas fa-volume-up"></i></span>
+            <input type="range" id="volume-slider" class="volume-slider" min="0" max="100" value="70">
+        </div>
+
+        <!-- Botão para mostrar/ocultar playlist -->
+        <button id="playlist-toggle" class="playlist-toggle-btn">
+            <i class="fas fa-chevron-down"></i>
+            <span>Playlist (100+ músicas)</span>
+            <i class="fas fa-chevron-down"></i>
+        </button>
+
+        <!-- Playlist (inicialmente oculta) -->
+        <div id="playlist-container" class="playlist-container">
+            <div id="playlist" class="playlist">
+                <!-- Itens da playlist serão gerados pelo JavaScript -->
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="player-footer">
+            <p>© 2024 RÁDIO MANANCIAL• <span class="live-indicator"><span class="live-dot"></span> AO VIVO</span></p>
+        </div>
+
+        <!-- Player de áudio oculto -->
+        <audio id="audio-player"></audio>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
